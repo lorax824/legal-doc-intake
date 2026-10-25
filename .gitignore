@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Never commit real data or secrets (this repo is demo/fictional only)
+.env
+*.pdf
+data/
