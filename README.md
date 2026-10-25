@@ -38,6 +38,10 @@ flowchart TD
     I -->|"human reviews &amp; sends"| J["Firm distribution"]
 ```
 
+> A richer, color-coded version of this diagram — showing what runs locally vs. the
+> single external call — is in [`docs/architecture.html`](docs/architecture.html)
+> (open it in a browser).
+
 1. **Eligibility gate** — every document is first sorted INCLUDE / EXCLUDE /
    REVIEW, so vendor receipts and confirmations never reach the mail log and
    anything ambiguous goes to a person.
